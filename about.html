@@ -6,6 +6,18 @@
 <title>About | PasswordGen</title>
 <meta name="description" content="Learn about PasswordGen: our mission, features, and commitment to online privacy. We're always adding new tools to help you stay secure.">
 <style>
+<div id="navbar"></div>
+<script>
+  fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navbar').innerHTML = data;
+    });
+</script>
+
+
+
+    
     body {
         margin: 0;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
