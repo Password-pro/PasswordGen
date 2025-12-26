@@ -6,7 +6,14 @@
 
 <title>Password Generator 1 – Strong, Safe, Secure Passwords</title>
 <meta name="description" content="Generate strong, safe, and secure passwords instantly. No data is stored, saved, or shared. Free and privacy-focused password generator.">
-
+<div id="navbar"></div>
+<script>
+  fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navbar').innerHTML = data;
+    });
+</script>
 <style>
 body {
   margin: 0;
