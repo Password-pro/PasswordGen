@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top VPNs Recommendations</title>
+<meta name="description" content="Recommended VPNs for privacy and security.">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+ul.vpn-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.vpn-list li {
+  margin: 10px 0;
+}
+
+ul.vpn-list a {
+  color: #1d8cf8;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+ul.vpn-list a:hover {
+  text-decoration: underline;
+}
+
+.note {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+  margin-top: 25px;
+  font-style: italic;
+}
+</style>
+</head>
+
+<body>
+
+<header>Top VPN Recommendations</header>
+
+<div class="container">
+  <ul class="vpn-list">
+    <li><a href="https://protonvpn.com/" target="_blank">ProtonVPN</a></li>
+    <li><a href="https://www.expressvpn.com/" target="_blank">ExpressVPN</a></li>
+    <li><a href="https://nordvpn.com/" target="_blank">NordVPN</a></li>
+    <li><a href="https://surfshark.com/" target="_blank">Surfshark</a></li>
+  </ul>
+
+  <p class="note">These VPN recommendations are not sponsored. We recommend them based on reliability, security, and speed.</p>
+</div>
+
+</body>
+</html>
