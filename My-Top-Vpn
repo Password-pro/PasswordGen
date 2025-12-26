@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top VPN Recommendations</title>
+<style>
+    body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background: #ffffff;
+        color: #333;
+    }
+    header {
+        background: #1d8cf8;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 15px 0;
+    }
+    nav a {
+        text-decoration: none;
+        color: #1d8cf8;
+        font-weight: 600;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+    .vpn-list {
+        list-style: none;
+        padding: 0;
+    }
+    .vpn-list li {
+        background: #f9f9f9;
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        transition: transform 0.1s;
+    }
+    .vpn-list li:hover {
+        transform: scale(1.02);
+    }
+    .vpn-list a {
+        color: #1d8cf8;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .vpn-list a:hover {
+        text-decoration: underline;
+    }
+    .note {
+        font-size: 0.85rem;
+        color: #666;
+        text-align: center;
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    Password Tools
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="password-checker.html">Password Checker</a>
+    <a href="password-safety.html">Password Safety</a>
+    <a href="vpn.html">Top VPNs</a>
+    <a href="about.html">About</a>
+</nav>
+
+<div class="container">
+    <h1>Top VPN Recommendations</h1>
+    <ul class="vpn-list">
+        <li>
+            <a href="https://protonvpn.com/?srsltid=AfmBOorkLMSG61jJ9fn60yMzcJ3RQP4cVaa8fzNt3SzmL1ypv1xQTesU" target="_blank" rel="noopener noreferrer">
+                ProtonVPN
+            </a>
+        </li>
+        <li>
+            <a href="https://www.expressvpn.com/?srsltid=AfmBOopfZRLMlq9iLqOfJayTKv-nLpat1Qp2A1GmxMUucjkw2J69Gesp" target="_blank" rel="noopener noreferrer">
+                ExpressVPN
+            </a>
+        </li>
+        <li>
+            <a href="https://nordvpn.com/country/usa/?vpn=brand" target="_blank" rel="noopener noreferrer">
+                NordVPN
+            </a>
+        </li>
+        <li>
+            <a href="https://surfshark.com/deal/brand?coupon=fullsecurity2&utm_campaign=21452249689&utm_content=164920616072&utm_creative=763892934696&utm_term=surfshark&utm_source=google&utm_medium=cpc" target="_blank" rel="noopener noreferrer">
+                Surfshark
+            </a>
+        </li>
+    </ul>
+
+    <p class="note">These VPN recommendations are <strong>not sponsored</strong>. We simply recommend them based on reliability, security, and speed.</p>
+</div>
+
+</body>
+</html>
